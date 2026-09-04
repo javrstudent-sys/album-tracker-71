@@ -1,0 +1,22 @@
+#album-container {
+    min-width: 80%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.card {
+    max-height: fit-content;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+form{
+    margin-block: 50px;
+}
